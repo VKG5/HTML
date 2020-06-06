@@ -1,4 +1,8 @@
 /* Body section */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background-repeat: no-repeat;
@@ -92,7 +96,7 @@ nav .current::before {
   text-align: center;
   font-size: 25px;
 
-  postion: relative;
+  position: relative;
 }
 
 button {
