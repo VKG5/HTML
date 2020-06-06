@@ -1,7 +1,6 @@
 /* Body section */
 body {
   margin: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-repeat: no-repeat;
   background-color: #231e26;
 }
@@ -24,14 +23,6 @@ header::after {
 
 .nav-bar-container {
   width: 80%;
-}
-
-.nav-links {
-  color: #dcc2c2;
-}
-
-.nav-links:hover{
-  color: white;
 }
 
 /* To access the ul and li elements of nav */
@@ -62,12 +53,13 @@ nav a:hover {
   color: white;
 }
 
+/* To get the white moving bar on top */
 nav a::before {
   content: '';
   display: block;
   height: 3px;
   width: 100%;
-  background-color: #dcc2c2;
+  background-color: white;
 
   position: absolute;
   top: 0px;
@@ -78,6 +70,14 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+nav .current {
+  color: white;
+}
+
+nav .current::before {
+  width: 75%;
 }
 
 /* Logo/Images Section */ 
