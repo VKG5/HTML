@@ -9,6 +9,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
     
     <title>Protfolio</title>
   </head>
@@ -36,6 +37,30 @@
     </header>
 
     <!-- The contact form-->
+    <div class="main-contact">
+      <form method="POST" action="contact.php">
+        <input name="name" type="text" placeholder="Your Name" class="form-control" required>
+        <br>
+        <br>
+        <input name="email" type="email" placeholder="E-mail" class="form-control" required>
+        <br>
+        <br>
+        <textarea name="message" placeholder="Message" rows="4" class="form-control" required></textarea>
+        <br>
+        <br>
+        <button type="submit" class="form-submit" name="submit">Send Message</button>
+      </form>
+    </div>
+
+        <!-- Footer -->
+        <footer class="footer-contact">
+          <div id="footer">
+              <p class="copyright-text">Copyright &copy; 2020 Lumi
+                  <br>
+                  Designed and developed by Lumi
+              </p>
+          </div>
+        </footer>
 
   </body>
 </html>
