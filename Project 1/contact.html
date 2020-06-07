@@ -38,7 +38,7 @@
 
     <!-- The contact form-->
     <div class="main-contact">
-      <form method="POST" action="contact.php">
+      <form method="POST" action="php/contact.php">
         <input name="name" type="text" placeholder="Your Name" class="form-control" required>
         <br>
         <br>
@@ -49,6 +49,16 @@
         <br>
         <br>
         <button type="submit" class="form-submit" name="submit">Send Message</button>
+
+        <div id="statusMessage"> 
+          <?php
+          if (! empty($message)) {
+              ?>
+              <p class='<?php echo $type; ?>Message'><?php echo $message; ?></p>
+          <?php
+          }
+          ?>
+        </div>
       </form>
     </div>
 
