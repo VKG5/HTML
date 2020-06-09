@@ -50,3 +50,19 @@
     width: 40%;
     position: relative;
 }
+
+.gallery_container-spotlight img:hover {
+    transform: scale(1.1);
+}
+
+.footer-gallery {
+    color: white;
+    text-align: center;
+    background: black;
+    padding: 5px;
+  
+    position: fixed;
+    bottom: 0;
+    width: 99.3%;
+    height: 58px;
+}
