@@ -34,14 +34,18 @@ header::after {
   width: 80%;
 }
 
+.nav-bar-container .links {
+  margin-left: 10vh;
+}
+
 /* To access the ul and li elements of nav */
-nav ul {
+.links nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-nav li {
+.links nav li {
   display: inline-block;
   margin-left: 35px;
   padding-top: 35px;
@@ -50,7 +54,7 @@ nav li {
   position: relative;
 }
 
-nav a {
+.links nav a {
   color: #dcc2c2;
   text-decoration: none;
   text-align: center;
@@ -58,12 +62,12 @@ nav a {
   font-size: 20px;
 }
 
-nav a:hover {
+.links nav a:hover {
   color: white;
 }
 
 /* To get the white moving bar on top */
-nav a::before {
+.links nav a::before {
   content: '';
   display: block;
   height: 3px;
@@ -154,9 +158,34 @@ button:active {
 }
 
 .footer-img {
+  position: relative;
   padding-top: 10vh;
   max-width: 100%;
 }
+
+/* Social media icons */
+.social-media-icons {
+  margin: 0;
+  width: 20%;
+}
+
+.social-media-connect {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 30%;
+}
+
+.social-media-connect ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-media-connect li:hover {
+  transform: scale(1.1);
+}
+
 
 /* Footer */
 footer {
