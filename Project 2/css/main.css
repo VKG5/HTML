@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+    font-family: Helvetica;
+}
+    
+/* Divs */
+.main {
+    width: 80%;
+    max-width: 950px;
+    border: 1px gray solid;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+    
+.header {
+    text-align: center;
+    margin-top: 0;
+    border: 2px solid black;
+    padding: 5px;
+    height: 250px;
+    background: black;
+    color: white;
+}
+
+/* Form */
+label {
+    display: block;
+    }
+    
+    input {
+    width: 30px;
+    margin-left: 20px;
+    }
+    
+    h2 {
+    clear: both;
+    padding-top: 20px;
+    }
