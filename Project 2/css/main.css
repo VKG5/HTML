@@ -5,6 +5,7 @@ body {
     
 /* Divs */
 .main {
+    margin-top: 10vh;
     width: 80%;
     max-width: 950px;
     border: 1px gray solid;
